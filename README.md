@@ -1,4 +1,60 @@
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 022c9b7cdc5f1df95a552d0ebcbac2ae4928c5b9
 # Finger Vein Biometric Identification Using CNN
 
 This project aims to develop a robust, non-contact biometric identification system using finger vein patterns captured via infrared imaging. Unlike traditional fingerprint-based systems, this approach leverages the unique vein patterns inside fingers, offering improved security and hygiene.
@@ -32,11 +88,19 @@ The dataset consists of infrared images of finger veins from 123 volunteers. Eac
 
 #### 1. Infrared Finger Vein Image (Raw Data)
 This is a sample of the raw infrared data captured directly from the finger.
+<<<<<<< HEAD
 ![Infrared Finger Vein Image](images/page_3_image_1.png)
 
 #### 2. Preprocessed Vein Pattern
 The vein pattern is extracted from the raw data, highlighting the unique structure of the veins.
 ![Preprocessed Vein Pattern](images/page_3_image_1.png)
+=======
+![Infrared Finger Vein Image](images_from_report/page_1_image_1.png)
+
+#### 2. Preprocessed Vein Pattern
+The vein pattern is extracted from the raw data, highlighting the unique structure of the veins.
+![Extracted Vein Pattern](images_from_report/page_1_image_2.png)
+>>>>>>> 022c9b7cdc5f1df95a552d0ebcbac2ae4928c5b9
 
 ---
 
@@ -58,6 +122,12 @@ The Convolutional Neural Network (CNN) was built using the following architectur
 4. **Dense Layers**: Perform classification using fully connected layers.
 5. **Output Layer**: Uses Softmax activation to classify images into one of the 123 classes.
 
+<<<<<<< HEAD
+=======
+### Example CNN Architecture Diagram
+The network architecture is designed to minimize loss and maximize classification accuracy.
+
+>>>>>>> 022c9b7cdc5f1df95a552d0ebcbac2ae4928c5b9
 ---
 
 ## Hyperparameter Tuning
@@ -70,7 +140,11 @@ To optimize performance, the following hyperparameters were tuned using Keras Tu
 
 ### Training and Validation Accuracy Plot
 This plot illustrates the model's performance over epochs.
+<<<<<<< HEAD
 ![Training and Validation Accuracy](images/page_4_image_1.png)
+=======
+![Training and Validation Accuracy](images_from_report/page_3_image_1.png)
+>>>>>>> 022c9b7cdc5f1df95a552d0ebcbac2ae4928c5b9
 
 ---
 
@@ -78,7 +152,11 @@ This plot illustrates the model's performance over epochs.
 
 1. **Test Accuracy**: The model achieved 80.44% accuracy on the test set.
 2. **Confusion Matrix**: The classification results for individual IDs are shown below.
+<<<<<<< HEAD
 ![Confusion Matrix](images/page_4_image_2.png)
+=======
+![Confusion Matrix](images_from_report/page_4_image_2.png)
+>>>>>>> 022c9b7cdc5f1df95a552d0ebcbac2ae4928c5b9
 
 3. **Key Observations**:
    - High classification accuracy for specific individuals (e.g., 81.16% for IDs 22 and 43).
@@ -97,8 +175,13 @@ This plot illustrates the model's performance over epochs.
 
 1. Clone the repository:
    ```bash
+<<<<<<< HEAD
    git clone https://github.com/<your-username>/Finger-Vein-Biometric-Identification.git
    cd Finger-Vein-Biometric-Identification
+=======
+   git clone https://github.com/<your-username>/finger-vein-biometrics.git
+   cd finger-vein-biometrics
+>>>>>>> 022c9b7cdc5f1df95a552d0ebcbac2ae4928c5b9
    ```
 
 2. Install dependencies:
