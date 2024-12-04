@@ -51,7 +51,7 @@
 
 
 
->>>>>>> 022c9b7cdc5f1df95a552d0ebcbac2ae4928c5b9
+
 # Finger Vein Biometric Identification Using CNN
 
 This project aims to develop a robust, non-contact biometric identification system using finger vein patterns captured via infrared imaging. Unlike traditional fingerprint-based systems, this approach leverages the unique vein patterns inside fingers, offering improved security and hygiene.
